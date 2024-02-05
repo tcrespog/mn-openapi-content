@@ -18,8 +18,11 @@ dependencies {
 
     compileOnly("io.micronaut:micronaut-http-client")
     compileOnly("io.micronaut:micronaut-http-validation")
+
+    compileOnly platform("io.micronaut.openapi:micronaut-openapi-bom:6.5.1")
     compileOnly("io.micronaut.openapi:micronaut-openapi")
     compileOnly("io.micronaut.openapi:micronaut-openapi-annotations")
+
     compileOnly("io.micronaut.serde:micronaut-serde-processor")
     runtimeOnly("ch.qos.logback:logback-classic")
 
